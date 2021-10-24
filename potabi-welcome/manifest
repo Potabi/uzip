@@ -1,0 +1,15 @@
+cat << EOF
+name:          potabi-welcome
+version:       0
+origin:        local
+comment:       Package that runs the potabi welcome application
+arch:          freebsd:13:x86:64
+www:           n/a
+maintainer:    n/a
+prefix:        /
+licenselogic:  single
+licenses:      [CC0]
+flatsize:      ${DIR_SIZE}
+desc:          Package that runs the potabi welcome application
+categories:    [local]
+EOF

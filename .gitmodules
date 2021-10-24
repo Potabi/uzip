@@ -1,0 +1,3 @@
+[submodule "potabi-welcome/files/usr/welcome"]
+	path = potabi-welcome/files/usr/welcome
+	url = https://github.com/potabi/welcome

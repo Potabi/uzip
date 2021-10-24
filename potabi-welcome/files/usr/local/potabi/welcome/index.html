@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <link href="./styles.css" rel="stylesheet">
+        <title>Welcome to Potabi</title>
+        <link href="node_modules/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link href="node_modules/bulma/css/bulma.min.css" rel="stylesheet">
+        <link href="font-awesome/css/all.min.css" rel="stylesheet">
+    </head>
+    <body class="overflow-hidden w-screen h-screen has-bg-potabi">
+        <div class="w-full h-full columns has-text-centered is-vcentered">
+            <div class="column px-5">
+                <ul>
+                    <li class="py-2">
+                        <a href="wiki.potabi.com.html" class="button is-info w-full">Wiki<i class="fas fa-info-circle ml-5"></i></a>
+                    </li>
+                    <li class="py-2">
+                        <a href="potabi.com.html" class="button is-info w-full">Website<i class="fas fa-file ml-5"></i></a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full">Installation guide<i class="fas fa-download ml-5"></i></a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full">Why use Potabi?<i class="fas fa-question ml-5"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h1 class="title">Welcome to Potabi</h1>
+                <img class="w-full" src="./images/potabi-logo-ol.png">
+            </div>
+            <div class="column px-5">
+                <ul>
+                    <li class="py-2">
+                        <a href="patreon.html" class="button is-info w-full"><i class="fab fa-patreon mr-5"></i>Patreon</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="discord.com.html" class="button is-info w-full"><i class="fab fa-discord mr-5"></i>Discord</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="github.com.html" class="button is-info w-full"><i class="fab fa-github mr-5"></i>GitHub</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="twitter.com.html" class="button is-info w-full"><i class="fab fa-twitter mr-5"></i>Twitter </a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full"><i class="fas fa-shopping-cart mr-5"></i>Store </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <!-- You can also require other files to run in this process -->
+        <script src="./renderer.js"></script>
+    </body>
+</html>
