@@ -1,6 +1,6 @@
-[submodule "potabi-welcome/files/usr/welcome"]
-	path = potabi-welcome/files/usr/potabi/welcome
-	url = https://github.com/potabi/welcome
 [submodule "vlang/files/usr/local/generic/v"]
 	path = vlang/files/usr/local/generic/v
 	url = https://github.com/vlang/v
+[submodule "potabi-welcome/files/usr/local/potabi/welcome"]
+	path = potabi-welcome/files/usr/local/potabi/welcome
+	url = https://github.com/potabi/welcome
