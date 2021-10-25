@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Categories=
+Exec=sudo sh /usr/local/potabi/welcome/init.sh
+TryExec=sh /usr/local/potabi/welcome/init.sh
+Name=Welcome to Potabi
+Comment=Welcome to Potabi!
